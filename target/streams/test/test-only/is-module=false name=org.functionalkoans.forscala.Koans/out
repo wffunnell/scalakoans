@@ -1,0 +1,103 @@
+[0m[[0minfo[0m] [0m[32mKoans:[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutAsserts:[0m[0m
+[0m[[0minfo[0m] [0m[32m- asserts can take a boolean argument[0m[0m
+[0m[[0minfo[0m] [0m[32m- asserts can include a message[0m[0m
+[0m[[0minfo[0m] [0m[32m- true and false values can be compared with should matchers[0m[0m
+[0m[[0minfo[0m] [0m[32m- booleans in asserts can test equality[0m[0m
+[0m[[0minfo[0m] [0m[32m- sometimes we expect you to fill in the values[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutValAndVar:[0m[0m
+[0m[[0minfo[0m] [0m[32m- vars may be reassigned[0m[0m
+[0m[[0minfo[0m] [0m[32m- vals may not be reassigned[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutClasses:[0m[0m
+[0m[[0minfo[0m] [0m[32m- val parameters in class definition define getter[0m[0m
+[0m[[0minfo[0m] [0m[32m- var parameters in class definition define getter and setter[0m[0m
+[0m[[0minfo[0m] [0m[32m- fields defined internally are private to class[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutRange:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Range are not inclusive at end of range[0m[0m
+[0m[[0minfo[0m] [0m[32m- Range can specify increment[0m[0m
+[0m[[0minfo[0m] [0m[32m- Range can indicate inclusion[0m[0m
+[0m[[0minfo[0m] [0m[32m- Range can specify to include value[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutTuples:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Tuples can be created easily[0m[0m
+[0m[[0minfo[0m] [0m[32m- Tuple items may be accessed individually[0m[0m
+[0m[[0minfo[0m] [0m[32m- Tuples may be of mixed type[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutLists:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Nil lists are identical, even of different types[0m[0m
+[0m[[0minfo[0m] [0m[32m- Lists are easily created[0m[0m
+[0m[[0minfo[0m] [0m[32m- Eq tests identity (same object)[0m[0m
+[0m[[0minfo[0m] [0m[32m- == tests equality (same content)[0m[0m
+[0m[[0minfo[0m] [0m[32m- Lists can be accessed via head and tail[0m[0m
+[0m[[0minfo[0m] [0m[32m- Lists can accessed at random[0m[0m
+[0m[[0minfo[0m] [0m[32m- Lists are immutable[0m[0m
+[0m[[0minfo[0m] [0m[32m- Lists have many useful methods[0m[0m
+[0m[[0minfo[0m] [0m[32m- Functions over lists can use _ as shorthand[0m[0m
+[0m[[0minfo[0m] [0m[32m- Functions over lists can use () instead of {}[0m[0m
+[0m[[0minfo[0m] [0m[32m- Lists can be 'reduced' with a mathematical operation[0m[0m
+[0m[[0minfo[0m] [0m[32m- Foldleft is like reduce, but with an explicit starting value[0m[0m
+[0m[[0minfo[0m] [0m[32m- You can create a list from a range[0m[0m
+[0m[[0minfo[0m] [0m[32m- Lists reuse their tails[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutMaps:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Maps can be created easily[0m[0m
+[0m[[0minfo[0m] [0m[32m- Maps contain distinct pairings[0m[0m
+[0m[[0minfo[0m] [0m[32m- Maps can be added to easily[0m[0m
+[0m[[0minfo[0m] [0m[32m- Map values can be iterated[0m[0m
+[0m[[0minfo[0m] [0m[32m- Maps insertion with duplicate key updates previous entry with subsequent value[0m[0m
+[0m[[0minfo[0m] [0m[32m- Map keys may be of mixed type[0m[0m
+[0m[[0minfo[0m] [0m[32m- Mixed type values can be added to a map [0m[0m
+[0m[[0minfo[0m] [0m[32m- Maps may be accessed[0m[0m
+[0m[[0minfo[0m] [0m[32m- Map elements can be removed easily[0m[0m
+[0m[[0minfo[0m] [0m[32m- Accessing a map by key results in an exception if key is not found[0m[0m
+[0m[[0minfo[0m] [0m[32m- Map elements can be removed in multiple[0m[0m
+[0m[[0minfo[0m] [0m[32m- Map elements can be removed with a tuple[0m[0m
+[0m[[0minfo[0m] [0m[32m- Attempted removal of nonexistent elements from a map is handled gracefully[0m[0m
+[0m[[0minfo[0m] [0m[32m- Map equivalency is independent of order[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutSets:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Sets can be created easily[0m[0m
+[0m[[0minfo[0m] [0m[32m- Sets contain distinct values[0m[0m
+[0m[[0minfo[0m] [0m[32m- Sets can be added to easily[0m[0m
+[0m[[0minfo[0m] [0m[32m- Sets may be of mixed type[0m[0m
+[0m[[0minfo[0m] [0m[32m- Sets may be accessed[0m[0m
+[0m[[0minfo[0m] [0m[32m- Set elements can be removed easily[0m[0m
+[0m[[0minfo[0m] [0m[32m- Set elements can be removed in multiple[0m[0m
+[0m[[0minfo[0m] [0m[32m- Set elements can be removed with a tuple[0m[0m
+[0m[[0minfo[0m] [0m[32m- Attempted removal of nonexistent elements from a set is handled gracefully[0m[0m
+[0m[[0minfo[0m] [0m[32m- Sets can be iterated easily[0m[0m
+[0m[[0minfo[0m] [0m[32m- Two sets can be intersected easily[0m[0m
+[0m[[0minfo[0m] [0m[32m- Two sets can be joined as their union easily[0m[0m
+[0m[[0minfo[0m] [0m[32m- A set is either a subset of another set or it isn't[0m[0m
+[0m[[0minfo[0m] [0m[32m- The difference between two sets can be obtained easily[0m[0m
+[0m[[0minfo[0m] [0m[32m- Set equivalency is independent of order[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutMutableMaps:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Mutable maps can be created easily[0m[0m
+[0m[[0minfo[0m] [0m[32m- Mutable maps can have elements removed[0m[0m
+[0m[[0minfo[0m] [0m[32m- Mutable maps can have tuples of elements removed[0m[0m
+[0m[[0minfo[0m] [0m[32m- Mutable maps can have tuples of elements added[0m[0m
+[0m[[0minfo[0m] [0m[32m- Mutable maps can have Lists of elements added[0m[0m
+[0m[[0minfo[0m] [0m[32m- Mutable maps can have Lists of elements removed[0m[0m
+[0m[[0minfo[0m] [0m[32m- Mutable maps can be cleared[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutMutableSets:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Mutable sets can be created easily[0m[0m
+[0m[[0minfo[0m] [0m[32m- Mutable sets can have elements removed[0m[0m
+[0m[[0minfo[0m] [0m[32m- Mutable sets can have tuples of elements removed[0m[0m
+[0m[[0minfo[0m] [0m[32m- Mutable sets can have tuples of elements added[0m[0m
+[0m[[0minfo[0m] [0m[32m- Mutable sets can have Lists of elements added[0m[0m
+[0m[[0minfo[0m] [0m[32m- Mutable sets can have Lists of elements removed[0m[0m
+[0m[[0minfo[0m] [0m[32m- Mutable sets can be cleared[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutFormatting:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Character Literals can be an a single character[0m[0m
+[0m[[0minfo[0m] [0m[32m- Character Literals can be an escape sequence, including octal or hexidecimal[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutPatternMatching:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Pattern matching returns something[0m[0m
+[0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
+[0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
+[0m[[0minfo[0m] [0m[33m  +  [0m[0m
+[0m[[0minfo[0m] [0m[33m  +  [0m[0m
+[0m[[0minfo[0m] [0m[33m  +  [0m[0m
+[0m[[0minfo[0m] [0m[33m  + Please meditate on koan "Pattern matching can return complex somethings" of suite "AboutPatternMatching" [0m[0m
+[0m[[0minfo[0m] [0m[33m  +  [0m[0m
+[0m[[0minfo[0m] [0m[33m  +  [0m[0m
+[0m[[0minfo[0m] [0m[33m  +  [0m[0m
+[0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
+[0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
+[0m[[0minfo[0m] [0m[32mInfo Provided - AboutPatternMatching[0m[0m
+[0m[[0minfo[0m] [0m[32mInfo Provided - Koans[0m[0m

@@ -1,0 +1,6 @@
+idea
+gen-idea
+~test-only org.functionalkoans.forscala.Koans
+~test-only
+~test-only org.functionalkoans.forscala.AboutAsserts
+~test-only org.functionalkoans.forscala.Koans
